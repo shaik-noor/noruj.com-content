@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#f7df1e"/>
+    </linearGradient>
+    <!-- Drop shadow filter -->
+    <filter id="drop-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feOffset in="SourceAlpha" dx="0" dy="8" result="off"/>
+      <feGaussianBlur in="off" stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.3 0" result="shadow"/>
+      <feBlend in="SourceGraphic" in2="shadow" mode="normal"/>
+    </filter>
+    <!-- Glow for text -->
+    <filter id="text-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="url(#bg-gradient)"/>
+  <!-- Abstract circles -->
+  <circle cx="300" cy="150" r="120" fill="#ffffff" opacity="0.05"/>
+  <circle cx="1000" cy="600" r="180" fill="#000000" opacity="0.03"/>
+
+  <!-- JS Logo -->
+  <g transform="translate(100,60) scale(2.5)">
+    <path d="M64 0H0v80l32 40 32-40V0z" fill="#F7DF1E"/>
+    <text x="32" y="55" text-anchor="middle"
+          font-family="'Roboto', sans-serif" font-size="48" font-weight="700" fill="#000">
+      JS
+    </text>
+  </g>
+
+  <!-- Title (Moved Up) -->
+  <g filter="url(#text-glow)">
+    <text x="350" y="200"
+          font-family="'Roboto', sans-serif" font-size="64" font-weight="700" fill="#ffffff">
+      JavaScript
+    </text>
+    <text x="350" y="280"
+          font-family="'Roboto', sans-serif" font-size="64" font-weight="700" fill="#ffffff">
+      Mastery
+    </text>
+    <text x="350" y="360"
+          font-family="'Roboto', sans-serif" font-size="96" font-weight="900" fill="#F7DF1E">
+      2025
+    </text>
+  </g>
+
+  <!-- Laptop with shadow (Moved Down) -->
+  <g transform="translate(550,380)" filter="url(#drop-shadow)">
+    <!-- Base -->
+    <rect width="600" height="360" rx="20" ry="20" fill="#1e1e1e"/>
+    <!-- Screen -->
+    <rect x="20" y="20" width="560" height="260" fill="#111111" rx="8" ry="8"/>
+
+    <!-- Code lines with syntax colors -->
+    <rect x="40" y="50"  width="480" height="12" rx="6" fill="#f7df1e"/>
+    <rect x="40" y="74"  width="420" height="12" rx="6" fill="#4EC9B0"/>
+    <rect x="40" y="98"  width="500" height="12" rx="6" fill="#CE9178"/>
+    <rect x="40" y="122" width="300" height="12" rx="6" fill="#569CD6"/>
+    <rect x="40" y="146" width="520" height="12" rx="6" fill="#9CDCFE"/>
+    <rect x="40" y="170" width="350" height="12" rx="6" fill="#C586C0"/>
+
+    <!-- Keyboard -->
+    <rect y="300" width="600" height="40" fill="#333333" rx="8" ry="8"/>
+  </g>
+</svg>

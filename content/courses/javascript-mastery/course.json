@@ -1,0 +1,292 @@
+{
+  "id": "javascript-mastery",
+  "title": "JavaScript Mastery 2025",
+  "slug": "javascript-mastery",
+  "description": "Master JavaScript from zero to hero with this comprehensive 2025 course covering beginner to advanced concepts with hands-on projects. Perfect for beginners and those looking to deepen their JavaScript knowledge.",
+  "thumbnail": "/content/courses/javascript-mastery/thumbnail.svg",
+  "duration": "12 weeks",
+  "level": "all levels",
+  "modules": [
+    {
+      "id": "01-beginner",
+      "title": "JavaScript Fundamentals for Beginners",
+      "slug": "beginner",
+      "description": "Learn the core concepts of JavaScript including syntax, variables, data types, control structures, and basic functions. Complete a simple interactive web project.",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "introduction",
+          "title": "Introduction to JavaScript and Web Development",
+          "slug": "introduction",
+          "order": 1,
+          "content": "modules/01-beginner/lessons/introduction.md"
+        },
+        {
+          "id": "environment-setup",
+          "title": "Setting Up Your Development Environment",
+          "slug": "environment-setup",
+          "order": 2,
+          "content": "modules/01-beginner/lessons/environment-setup.md"
+        },
+        {
+          "id": "variables-data-types",
+          "title": "Variables and Data Types",
+          "slug": "variables-data-types",
+          "order": 3,
+          "content": "modules/01-beginner/lessons/variables-data-types.md"
+        },
+        {
+          "id": "operators-expressions",
+          "title": "Operators and Expressions",
+          "slug": "operators-expressions",
+          "order": 4,
+          "content": "modules/01-beginner/lessons/operators-expressions.md"
+        },
+        {
+          "id": "control-flow",
+          "title": "Control Flow: Conditionals and Loops",
+          "slug": "control-flow",
+          "order": 5,
+          "content": "modules/01-beginner/lessons/control-flow.md"
+        },
+        {
+          "id": "functions-basics",
+          "title": "Functions and Scope",
+          "slug": "functions-basics",
+          "order": 6,
+          "content": "modules/01-beginner/lessons/functions-basics.md"
+        },
+        {
+          "id": "arrays-basics",
+          "title": "Working with Arrays",
+          "slug": "arrays-basics",
+          "order": 7,
+          "content": "modules/01-beginner/lessons/arrays-basics.md"
+        },
+        {
+          "id": "objects-basics",
+          "title": "Introduction to Objects",
+          "slug": "objects-basics",
+          "order": 8,
+          "content": "modules/01-beginner/lessons/objects-basics.md"
+        },
+        {
+          "id": "dom-basics",
+          "title": "DOM Manipulation Fundamentals",
+          "slug": "dom-basics",
+          "order": 9,
+          "content": "modules/01-beginner/lessons/dom-basics.md"
+        },
+        {
+          "id": "events-basics",
+          "title": "Event Handling",
+          "slug": "events-basics",
+          "order": 10,
+          "content": "modules/01-beginner/lessons/events-basics.md"
+        },
+        {
+          "id": "beginner-project",
+          "title": "Beginner Project: Interactive To-Do List App",
+          "slug": "beginner-project",
+          "order": 11,
+          "content": "modules/01-beginner/lessons/beginner-project.md"
+        }
+      ]
+    },
+    {
+      "id": "02-intermediate",
+      "title": "Intermediate JavaScript Concepts",
+      "slug": "intermediate",
+      "description": "Build on your JavaScript foundation with more advanced concepts including error handling, asynchronous programming, ES6+ features, and modern JavaScript tooling.",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "advanced-functions",
+          "title": "Advanced Functions and Closures",
+          "slug": "advanced-functions",
+          "order": 1,
+          "content": "modules/02-intermediate/lessons/advanced-functions.md"
+        },
+        {
+          "id": "object-oriented-js",
+          "title": "Object-Oriented JavaScript",
+          "slug": "object-oriented-js",
+          "order": 2,
+          "content": "modules/02-intermediate/lessons/object-oriented-js.md"
+        },
+        {
+          "id": "prototypes-inheritance",
+          "title": "Prototypes and Inheritance",
+          "slug": "prototypes-inheritance",
+          "order": 3,
+          "content": "modules/02-intermediate/lessons/prototypes-inheritance.md"
+        },
+        {
+          "id": "error-handling",
+          "title": "Error Handling and Debugging",
+          "slug": "error-handling",
+          "order": 4,
+          "content": "modules/02-intermediate/lessons/error-handling.md"
+        },
+        {
+          "id": "async-programming",
+          "title": "Asynchronous Programming Basics",
+          "slug": "async-programming",
+          "order": 5,
+          "content": "modules/02-intermediate/lessons/async-programming.md"
+        },
+        {
+          "id": "promises-async-await",
+          "title": "Promises and Async/Await",
+          "slug": "promises-async-await",
+          "order": 6,
+          "content": "modules/02-intermediate/lessons/promises-async-await.md"
+        },
+        {
+          "id": "es6-features",
+          "title": "ES6+ Features and Modern Syntax",
+          "slug": "es6-features",
+          "order": 7,
+          "content": "modules/02-intermediate/lessons/es6-features.md"
+        },
+        {
+          "id": "modules-bundlers",
+          "title": "Modules and Bundlers",
+          "slug": "modules-bundlers",
+          "order": 8,
+          "content": "modules/02-intermediate/lessons/modules-bundlers.md"
+        },
+        {
+          "id": "working-with-apis",
+          "title": "Working with APIs and Fetch",
+          "slug": "working-with-apis",
+          "order": 9,
+          "content": "modules/02-intermediate/lessons/working-with-apis.md"
+        },
+        {
+          "id": "local-storage",
+          "title": "Browser Storage and Cookies",
+          "slug": "local-storage",
+          "order": 10,
+          "content": "modules/02-intermediate/lessons/local-storage.md"
+        },
+        {
+          "id": "intermediate-project",
+          "title": "Intermediate Project: Weather Dashboard App",
+          "slug": "intermediate-project",
+          "order": 11,
+          "content": "modules/02-intermediate/lessons/intermediate-project.md"
+        }
+      ]
+    },
+    {
+      "id": "03-advanced",
+      "title": "Advanced JavaScript Development",
+      "slug": "advanced",
+      "description": "Take your JavaScript skills to the professional level with advanced patterns, performance optimization, modern frameworks, testing, and security best practices.",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "design-patterns",
+          "title": "JavaScript Design Patterns",
+          "slug": "design-patterns",
+          "order": 1,
+          "content": "modules/03-advanced/lessons/design-patterns.md"
+        },
+        {
+          "id": "functional-programming",
+          "title": "Functional Programming in JavaScript",
+          "slug": "functional-programming",
+          "order": 2,
+          "content": "modules/03-advanced/lessons/functional-programming.md"
+        },
+        {
+          "id": "advanced-async",
+          "title": "Advanced Asynchronous Patterns",
+          "slug": "advanced-async",
+          "order": 3,
+          "content": "modules/03-advanced/lessons/advanced-async.md"
+        },
+        {
+          "id": "performance-optimization",
+          "title": "Performance Optimization Techniques",
+          "slug": "performance-optimization",
+          "order": 4,
+          "content": "modules/03-advanced/lessons/performance-optimization.md"
+        },
+        {
+          "id": "memory-management",
+          "title": "Memory Management and Garbage Collection",
+          "slug": "memory-management",
+          "order": 5,
+          "content": "modules/03-advanced/lessons/memory-management.md"
+        },
+        {
+          "id": "testing-basics",
+          "title": "JavaScript Testing Fundamentals",
+          "slug": "testing-basics",
+          "order": 6,
+          "content": "modules/03-advanced/lessons/testing-basics.md"
+        },
+        {
+          "id": "typescript-intro",
+          "title": "Introduction to TypeScript",
+          "slug": "typescript-intro",
+          "order": 7,
+          "content": "modules/03-advanced/lessons/typescript-intro.md"
+        },
+        {
+          "id": "state-management",
+          "title": "State Management Patterns",
+          "slug": "state-management",
+          "order": 8,
+          "content": "modules/03-advanced/lessons/state-management.md"
+        },
+        {
+          "id": "web-components",
+          "title": "Web Components and Shadow DOM",
+          "slug": "web-components",
+          "order": 9,
+          "content": "modules/03-advanced/lessons/web-components.md"
+        },
+        {
+          "id": "security-best-practices",
+          "title": "Security Best Practices in JavaScript",
+          "slug": "security-best-practices",
+          "order": 10,
+          "content": "modules/03-advanced/lessons/security-best-practices.md"
+        },
+        {
+          "id": "advanced-project",
+          "title": "Advanced Project: Single Page Application (SPA)",
+          "slug": "advanced-project",
+          "order": 11,
+          "content": "modules/03-advanced/lessons/advanced-project.md"
+        }
+      ]
+    },
+    {
+      "id": "04-capstone",
+      "title": "Capstone Projects",
+      "slug": "capstone",
+      "description": "Apply everything you've learned through two comprehensive capstone projects: building a full-stack JavaScript application and a modern progressive web app.",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "capstone-project-1",
+          "title": "Capstone Project 1: Full-Stack JavaScript E-commerce Platform",
+          "slug": "capstone-project-1",
+          "order": 1,
+          "content": "modules/04-capstone/lessons/capstone-project-1.md"
+        },
+        {
+          "id": "capstone-project-2",
+          "title": "Capstone Project 2: Progressive Web App with Offline Capabilities",
+          "slug": "capstone-project-2",
+          "order": 2,
+          "content": "modules/04-capstone/lessons/capstone-project-2.md"
+        }
+      ]
+    }
+  ]
+}
